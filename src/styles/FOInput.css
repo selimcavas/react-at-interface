@@ -1,0 +1,57 @@
+.fo-input-wrapper {
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: none;
+    transition: all 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    height: 20px;
+    padding: 4px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transition: all 0.3s;
+  }
+  input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .fo-input-wrapper:hover {
+    border-color: rgb(217, 232, 254);
+    box-shadow: 0 0 0 4px rgb(217, 232, 254);
+    border-radius: 4px;
+  }
+  
+  .fo-input-wrapper:focus-within {
+    border-color: rgb(78, 163, 252);
+    box-shadow: 0 0 0 2px rgb(78, 163, 252);
+    border-radius: 4px;
+  }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

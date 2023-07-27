@@ -1,0 +1,56 @@
+
+.connect-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  width: 30%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.submit-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  max-height: fit-content;
+  z-index: 1000;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.background-shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.502);
+    z-index: 1000;
+}
